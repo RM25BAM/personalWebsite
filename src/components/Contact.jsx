@@ -6,6 +6,11 @@ import { styles } from '../styles';
 import { EarthCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
+import { s } from 'maath/dist/misc-19a3ec46.esm';
+
+//templateid : template_hq1tqpb
+//serviceid : service_soxyjnj
+// publickey : RPFglC1ZEZmVG_Ygs
 
 const Contact = () => {
   const formRef = useRef();
@@ -16,10 +21,40 @@ const Contact = () => {
   });
   const [loading, setLoading] = useState(false);
   const handleChange = (e) => {
-
+    const { name, value } = e.target;
+    
+    setForm({ ...form, [name]: value })
   }
   const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
 
+    emailjs.send('service_soxyjnj',
+     'template_hq1tqpb',
+     {
+      from_name: form.name,
+      to_name: 'Natasha',
+      from_email: form.email,
+      to_email: 'nmpiedrabuena1918@gmail.com',
+      message: form.message,
+     },
+     'RPFglC1ZEZmVG_Ygs')
+     .then(() => {
+      setLoading(false);
+      alert('Thank you! I will get back to you soon!');
+      setForm({
+        name: '',
+        email: '',
+        message: '',
+      }, (error) => {
+        setLoading(false)
+
+        console.log(error);
+        alert('Something went wrong. Try agian later!')
+      })
+
+
+     })
   }
   return (
     <div
@@ -97,4 +132,4 @@ const Contact = () => {
   )
 }
 
-export default SectionWrapper(Contact, "contact");
+export default SectionWrapper(Contact, "contact")
