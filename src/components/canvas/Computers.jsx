@@ -12,7 +12,7 @@ const Computers = ({isMobile}) => {
       groundColor="black" />
         <pointLight intensity={15} />
         <spotLight
-          position={[-20, 50, 10]}
+          position={[-20, 3, 10]}
           angle={0.12}
           penumbra={1}
           intensity={1}

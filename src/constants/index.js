@@ -1,7 +1,6 @@
 import {
     mobile,
     backend,
-    creator,
     web,
     javascript,
     typescript,
@@ -14,11 +13,8 @@ import {
     mongodb,
     git,
     figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    equilend,
+    hack,
     carrent,
     jobit,
     tripguide,
@@ -52,11 +48,7 @@ import {
      {
       title: "Product Management",
       icon: backend,
-    }, 
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
+    }
   ];
   
   const technologies = [
@@ -108,63 +100,36 @@ import {
       name: "figma",
       icon: figma,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Software Engineering Fellow",
+      company_name: "Hack Diversity",
+      icon: hack,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Jan 2023 - Aug 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Collaborated with a team of 5 in the production stages of technical projects with the utilization of the MERN stack (MongoDB, React, Express.js and node.js).",
+        "Selected as one of 15 candidates for the highly competitive Hack.Diversity Fellowship's first Cohort in New York City.",
+        "Empowered minority students in breaking into the tech field in New York where the program focuses on career leadership and workforce development.",
+        "Attended training sessions aimed at supporting and advancing Black and Latinx talent in the workplace.",
+        "Partnered with a mentor to enhance my technical knowledge and actively participate in the technology community.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Software Development Intern",
+      company_name: "Equilend",
+      icon: equilend,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Jun 2023 - Aug 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Created an efficiency-boosting feature for integration into the upcoming trading platform release. This enhancement will be utilized daily by users, significantly improving their trading experience.",
+        "Experienced in Javascript Development to design leveraging expertise in designing and implementing robust and efficient applications.",
+        "Skilled in executing SQL queries while professionally managing Oracle databases.",
+        "Mastered utilization of IBM MQ to secure message and data exchange in distributed systems.",
+        "Executed proper Git version control practices and maintained a weekly code push schedule.",
+        "Skilled in Java development, leveraging expertise in designing and implementing robust and efficient applications.",
       ],
     },
   ];
