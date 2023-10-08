@@ -15,9 +15,9 @@ import {
     figma,
     equilend,
     hack,
-    carrent,
-    jobit,
-    tripguide,
+    draverabezerra,
+/*     jobit,
+    tripguide, */
     threejs,
   } from "../assets";
   
@@ -133,7 +133,7 @@ import {
       ],
     },
   ];
-  
+
   const testimonials = [
     {
       testimonial:
@@ -159,31 +159,32 @@ import {
       company: "456 Enterprises",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
-  ];
+  ]; 
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Dra Vera Bezerra",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
         {
-          name: "react",
+          name: "css",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "html",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "bootstrap",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: draverabezerra,
+      Live_link: "https://www.draverabezerra.com",
+      source_code_link: "https://github.com/RM25BAM/www.draverabezzerra.com",
     },
-    {
+    /* {
       name: "Job IT",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
@@ -224,7 +225,7 @@ import {
       ],
       image: tripguide,
       source_code_link: "https://github.com/",
-    },
+    }, */
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences,  testimonials,  projects };
