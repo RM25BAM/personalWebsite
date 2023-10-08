@@ -21,7 +21,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import draverabezerra from "./draverabezerra.png";
-
+import sencha from "./tech/sencha.png";
 
 import hack from "./company/hack.png";
 import equilend from "./company/equilend.png";
@@ -57,4 +57,5 @@ export {
   /* jobit,
   tripguide, */
   live,
+  sencha,
 };

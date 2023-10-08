@@ -8,6 +8,7 @@ import {
     css,
     reactjs,
     redux,
+    sencha,
     tailwind,
     nodejs,
     mongodb,
@@ -72,9 +73,13 @@ import {
       name: "React JS",
       icon: reactjs,
     },
-    {
+/*     {
       name: "Redux Toolkit",
       icon: redux,
+    }, */
+    {
+      name: "Sencha",
+      icon: sencha,
     },
     {
       name: "Tailwind CSS",

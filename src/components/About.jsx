@@ -50,7 +50,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a student at Manhattan College majoring in a bachelors of Computer Science and set to graduate in May 2025. I'm actively involved in campus organizations such as CSTEP, the Muslim Student Association, Girls Who Code, Entrepreneur Club, and the Association for Computing Machinery. I mastered database management, Git version control, and Java development, while also becoming proficient in Javascript and the Sencha Ext JS framework. I'm a recipient of the Hack.Diversity Fellowship, which underscores my commitment to diversity and professional growth. My technical skills span Java, Javascript, HTML/CSS, Python, C++, and more, making me well-prepared for challenges in the tech industry.
+        I'm a student at Manhattan College majoring in a bachelors of Computer Science and set to graduate in May 2025. I'm actively involved in campus organizations such as CSTEP,  Girls Who Code, Entrepreneur Club, and the Association for Computing Machinery. I mastered database management, Git version control, and Java development, while also becoming proficient in Javascript and the Sencha Ext JS framework. I'm a recipient of the Hack.Diversity Fellowship, which underscores my commitment to diversity and professional growth. My technical skills span Java, Javascript, HTML/CSS, Python, C++, and more, making me well-prepared for challenges in the tech industry.
       </motion.p>
       <div
         className="mt-20 flex flex-wrap gap-10 justify-center"
