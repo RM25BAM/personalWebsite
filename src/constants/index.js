@@ -165,7 +165,7 @@ import {
     {
       name: "Dra Vera Bezerra",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based portfolio showcasing the expertise of a medical doctor/nutritionist. Created using HTML, CSS, and Bootstrap, offering valuable insights into healthcare and nutrition.",
       tags: [
         {
           name: "css",
