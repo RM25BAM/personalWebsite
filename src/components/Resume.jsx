@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { SectionWrapper } from '../hoc';
 import { textVariant } from '../utils/motion';
-import NP_Resume from '../assets/Piedrabuena_Natasha_Resume.pdf';
+import NP_Resume from '../assets/Resume_Natasha_Piedrabuena_2024_Spring.pdf';
 import download from '../assets/download.png';
 const Resume = () => {
   const handleDownload = () => {

@@ -20,17 +20,22 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import medical_UI from "./medicalUi.png"
 import draverabezerra from "./draverabezerra.png";
 import sencha from "./tech/sencha.png";
+import python from "./tech/python.png";
+import mysql from "./tech/mysql.png";
 
 import hack from "./company/hack.png";
 import equilend from "./company/equilend.png";
+import gdsc from "./company/gdsc.png";
 
 
 /* import jobit from "./jobit.png";
 import tripguide from "./tripguide.png"; */
 
 export {
+  mysql,
   logo,
   backend,
   creator,
@@ -43,6 +48,7 @@ export {
   figma,
   git,
   html,
+  python,
   javascript,
   mongodb,
   nodejs,
@@ -54,8 +60,8 @@ export {
   equilend,
   hack,
   draverabezerra,
-  /* jobit,
-  tripguide, */
+  medical_UI,
   live,
   sencha,
+  gdsc,
 };
