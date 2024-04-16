@@ -6,7 +6,6 @@ import { styles } from '../styles';
 import { EarthCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
-import { s } from 'maath/dist/misc-19a3ec46.esm';
 
 //templateid : template_hq1tqpb
 //serviceid : service_soxyjnj

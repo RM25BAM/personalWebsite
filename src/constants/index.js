@@ -1,13 +1,14 @@
 import {
+    mysql,
     mobile,
     backend,
     web,
+    python,
     javascript,
     typescript,
     html,
     css,
     reactjs,
-    redux,
     sencha,
     tailwind,
     nodejs,
@@ -16,10 +17,12 @@ import {
     figma,
     equilend,
     hack,
+    gdsc,
     draverabezerra,
-/*     jobit,
-    tripguide, */
+    medical_UI,
+    /*tripguide, */
     threejs,
+    
   } from "../assets";
   
   export const navLinks = [
@@ -73,22 +76,22 @@ import {
       name: "React JS",
       icon: reactjs,
     },
-/*     {
-      name: "Redux Toolkit",
-      icon: redux,
-    }, */
     {
+      name: "Python",
+      icon: python,
+    }, 
+    /* {
       name: "Sencha",
       icon: sencha,
-    },
+    }, */
     {
       name: "Tailwind CSS",
       icon: tailwind,
     },
-    {
+    /* {
       name: "Node JS",
       icon: nodejs,
-    },
+    }, */
     {
       name: "MongoDB",
       icon: mongodb,
@@ -104,6 +107,10 @@ import {
     {
       name: "figma",
       icon: figma,
+    },
+    {
+      name: "mysql",
+      icon: mysql,
     },
   ];
   
@@ -137,9 +144,23 @@ import {
         "Skilled in Java development, leveraging expertise in designing and implementing robust and efficient applications.",
       ],
     },
+    {
+      title: "Google Devloper Student Club Tech Lead",
+      company_name: "Google Developer Student Club at Manhattan College",
+      icon: gdsc,
+      iconBg: "#E6DEDD",
+      date: "Jan 2024 - Present",
+      points: [
+        "Organized tech events, seminars, and networking sessions as GDSC Tech Lead.",
+        "Planned activities linking academic learning with practical tech applications.",
+        "Created opportunities for learning about new technologies and meeting industry experts.",
+        "Facilitated networking with professionals and peers to enhance career prospects.",
+        "Contributed to building a vibrant and supportive student tech community.",
+      ],
+    },
   ];
 
-  const testimonials = [
+   const testimonials = [
     {
       testimonial:
         "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
@@ -189,27 +210,29 @@ import {
       Live_link: "https://www.draverabezerra.com",
       source_code_link: "https://github.com/RM25BAM/www.draverabezzerra.com",
     },
-    /* {
-      name: "Job IT",
+    {
+      name: "First Medical UI",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "My first project was a user-friendly web interface for a medical X-ray site, built with HTML, CSS, JavaScript, and Bootstrap. Main focus was on developing my UI skills and understanding how bootstrap works.",
       tags: [
         {
-          name: "react",
+          name: "css",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "html",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "bootstrap",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
+      image: medical_UI,
+      Live_link: "https://npmedicaldesignui.netlify.app",
+      source_code_link: "https://github.com/RM25BAM/medical_first_UI_projectm",
+    }
+    /*,
     {
       name: "Trip Guide",
       description:
@@ -233,4 +256,4 @@ import {
     }, */
   ];
   
-  export { services, technologies, experiences,  testimonials,  projects };
+  export { services, technologies, experiences, testimonials, projects };
