@@ -22,7 +22,8 @@ import {
     medical_UI,
     /*tripguide, */
     threejs,
-    
+    pantryTracker,
+    manhattan,
   } from "../assets";
   
   export const navLinks = [
@@ -116,9 +117,9 @@ import {
   
   const experiences = [
     {
-      title: "Software Engineering Fellow",
-      company_name: "Hack Diversity",
-      icon: hack,
+      title: "Kakos Researcher",
+      company_name: "Manhattan College Kakos Research",
+      icon: manhattan,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Aug 2023",
       points: [
@@ -142,6 +143,20 @@ import {
         "Mastered utilization of IBM MQ to secure message and data exchange in distributed systems.",
         "Executed proper Git version control practices and maintained a weekly code push schedule.",
         "Skilled in Java development, leveraging expertise in designing and implementing robust and efficient applications.",
+      ],
+    },
+    {
+      title: "Software Engineering Fellow",
+      company_name: "Hack Diversity",
+      icon: hack,
+      iconBg: "#E6DEDD",
+      date: "Jan 2023 - Aug 2023",
+      points: [
+        "Collaborated with a team of 5 in the production stages of technical projects with the utilization of the MERN stack (MongoDB, React, Express.js and node.js).",
+        "Selected as one of 15 candidates for the highly competitive Hack.Diversity Fellowship's first Cohort in New York City.",
+        "Empowered minority students in breaking into the tech field in New York where the program focuses on career leadership and workforce development.",
+        "Attended training sessions aimed at supporting and advancing Black and Latinx talent in the workplace.",
+        "Partnered with a mentor to enhance my technical knowledge and actively participate in the technology community.",
       ],
     },
     {
@@ -232,28 +247,25 @@ import {
       Live_link: "https://npmedicaldesignui.netlify.app",
       source_code_link: "https://github.com/RM25BAM/medical_first_UI_projectm",
     }
-    /*,
+    ,
     {
-      name: "Trip Guide",
+      name: "Pantry Tracker",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Pantry tracker utlizing Next.JS and firebase to add various items in your pantry to keep track of all your purchases. The main focus was in creating a nextjs project and incorporating firebase database.",
       tags: [
         {
           name: "nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "firebase",
           color: "green-text-gradient",
         },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    }, */
+      image: pantryTracker,
+      Live_link: "https://pantry-project-gsohd2n4h-natashas-projects-0cb00135.vercel.app",
+      source_code_link: "https://github.com/RM25BAM/PantryProject",
+    }, 
   ];
   
   export { services, technologies, experiences, testimonials, projects };

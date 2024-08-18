@@ -25,16 +25,18 @@ import draverabezerra from "./draverabezerra.png";
 import sencha from "./tech/sencha.png";
 import python from "./tech/python.png";
 import mysql from "./tech/mysql.png";
-
+import pantryTracker from "./tech/pantryTracker.png";
 import hack from "./company/hack.png";
 import equilend from "./company/equilend.png";
 import gdsc from "./company/gdsc.png";
-
+import manhattan from "./manhattan.png";
 
 /* import jobit from "./jobit.png";
 import tripguide from "./tripguide.png"; */
 
 export {
+  manhattan,
+  pantryTracker,
   mysql,
   logo,
   backend,
