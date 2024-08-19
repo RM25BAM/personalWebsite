@@ -123,11 +123,12 @@ import {
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Aug 2023",
       points: [
-        "Collaborated with a team of 5 in the production stages of technical projects with the utilization of the MERN stack (MongoDB, React, Express.js and node.js).",
-        "Selected as one of 15 candidates for the highly competitive Hack.Diversity Fellowship's first Cohort in New York City.",
-        "Empowered minority students in breaking into the tech field in New York where the program focuses on career leadership and workforce development.",
-        "Attended training sessions aimed at supporting and advancing Black and Latinx talent in the workplace.",
-        "Partnered with a mentor to enhance my technical knowledge and actively participate in the technology community.",
+        "Developed a system with python and integrating neural network models with advanced preprocessing techniques for analyzing EEG signals to detect emotions.",
+        "Implemented wavelet denoising for high-quality neural signals, preferred over Fast Fourier Transform for better signal transition preservation.",
+        "Designed and trained two parallel algorithm approaches: Graph Convolutional Network (GCN) combined with Bidirectional Long Short-Term Memory (BiLSTM) networks for interpreting EEG signals.",
+        "Adopted a comprehensive validation protocol using independent EEG datasets for performance assessment and engaged in iterative optimization to refine model accuracy and reliability.",
+        "Utilized the SJTU Emotion EEG Dataset (SEED) to train and validate the system, ensuring a robust emotion detection system.",
+
       ],
     },
     {

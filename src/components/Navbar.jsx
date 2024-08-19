@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import {navLinks } from '../constants';
@@ -23,7 +23,7 @@ const Navbar = () => {
         h-9 object-contain"
         />
         <p className="text-white text-[18px] font-bold cursor-pointer flex">Piedrabuena &nbsp;
-        <span className="sm:block hidden">| Fullstack Developer</span></p>
+        <span className="sm:block hidden">| Aspiring Developer</span></p>
       </Link>
       <ul className= "list-none hidden sm:flex flex-row gap-10">
         {navLinks.map((link) => (
